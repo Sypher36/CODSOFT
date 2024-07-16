@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::selection {
+    background-color: lightgreen;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/046/833/133/original/4k-abstract-fluid-background-with-vibrant-colors-and-smooth-flowing-patterns-perfect-for-creative-projects-digital-art-or-as-a-visually-stunning-backdrop-free-video.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: "Comfortaa", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    padding: 0 40px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    backdrop-filter: blur(5px);
+    border-bottom: 1px solid blue;
+}
+
+.logo {
+    font-size: 40px;
+}
+
+.grid {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    min-width: 0px;
+}
+
+.left, .right {
+
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 1px solid black;
+    font-weight: bold;
+    /*width: 100%;*/
+    min-width: 49%;
+}
+
+.title {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    border-bottom: 1px solid blue;
+}
+
+.graph {
+    display: flex;
+    padding: 10px 20px;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+.graph-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid blue;
+    background-color: rgba(0, 0, 255, 0.2); /* Light blue background for visibility */
+    text-align: center;
+    line-height: 40px; /* Adjust based on height for vertical alignment */
+    font-size: 18px;
+    margin-bottom: 10px; /* Space between bars */
+    color: black; /* Text color for readability */
+}
