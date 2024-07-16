@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+.container {
+    text-align: center;
+    font-family: "Comfortaa", sans-serif;
+}
+
+h1 {
+    color: white;
+    font-size: 5em;
+    letter-spacing: -0.04em;
+}
+
+p {
+    color: rgb(246, 58, 58);
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+
+.middle {
+    color: white;
+}
+
+.icons {
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.twitter {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvsiopV-9wuOYkMcht6lwvtu3tNbNvMDPSkQ&s");
+}
+
+.instagram {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR38Pw-FmZhRKLnkmF1jiVGwewHYa45eGIZwg&s");
+}
+
+.telegram {
+    background-image: url("https://img.etimg.com/thumb/width-1600,height-900,imgsize-10120,resizemode-75,msid-102791987/magazines/panache/now-update-any-element-of-your-telegram-story-as-messaging-app-rolls-out-new-update.jpg");
+}
+
+.whatsapp {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmXP0VKyJhIQeFOEUm79-1j65SBUGiQvbfQA&s");
+}
+
+.leetcode {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4h4yf5vhuu8_Dqf5VC1l1tFbIJ88N4H24jg&s");
+}
